@@ -2,6 +2,8 @@
 
 A small but thoughtfully designed REST API for a fictional bakery client. Built to demonstrate clean architecture, Test-Driven Development, and SOLID principles — the same engineering practices used in professional software delivery.
 
+Demo link- https://drive.google.com/file/d/1E35v40SwdueayrbtQ7BW7bYJyIoZ04lN/view?usp=sharing
+
 ---
 
 ## The Client Brief
