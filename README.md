@@ -1,2 +1,0 @@
-# Bakery-Management
-# Bakery
