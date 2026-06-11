@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: bakery-backend
+    runtime: java
+    buildCommand: mvn clean package -DskipTests
+    startCommand: java -jar target/bakery-delivery-1.0.0.jar
+    envVars:
+      - key: PORT
+        value: 8080
+      - key: ALLOWED_ORIGINS
+        sync: false   # Set this manually in Render dashboard after Vercel deploy
+    healthCheckPath: /api/products
